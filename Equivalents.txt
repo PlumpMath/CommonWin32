@@ -1,0 +1,10 @@
+﻿Quick map of common types
+http://msdn.microsoft.com/en-us/library/windows/desktop/aa383751.aspx
+
+BYTE/BOOLEAN = byte
+BOOL = int (or marshal with unmanaged bool)
+WORD = ushort
+DWORD/UINT/ULONG = uint
+LONG = int
+LONGLONG = long
+DWORDLONG = ulong

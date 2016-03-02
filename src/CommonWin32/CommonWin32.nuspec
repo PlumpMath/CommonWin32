@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package >
+	<metadata>
+		<id>$id$</id>
+		<version>$version$</version>
+		<title>$title$</title>
+		<authors>$author$</authors>
+		<owners>$author$</owners>
+		<projectUrl>https://github.com/soukoku/CommonWin32</projectUrl>
+		<licenseUrl>https://raw.githubusercontent.com/soukoku/CommonWin32/master/LICENSE.txt</licenseUrl>
+		<iconUrl>http://i.imgur.com/m71A877.png</iconUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>$description$</description>
+		<releaseNotes>V2 release requires at least framework 3.5 client profile.</releaseNotes>
+		<copyright>$copyright$</copyright>
+		<tags>win32 pinvoke interop</tags>
+	</metadata>
+	<files>
+    <file src="bin\$configuration$\$id$.pdb" target="lib\net35-Client"/>
+		<!--<file src="bin\$configuration$\$id$.pdb" target="lib\net20"/>
+		<file src="bin\$configuration$\Net4\$id$.pdb" target="lib\net40-client"/>
+		<file src="bin\$configuration$\Net4\$id$.dll" target="lib\net40-client"/>
+		<file src="bin\$configuration$\Net4\$id$.xml" target="lib\net40-client"/>-->
+	</files>
+</package>
